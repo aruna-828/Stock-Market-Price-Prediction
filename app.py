@@ -188,4 +188,5 @@ def get_started():
     return render_template('homepage.html')  # Redirect to homepage if GET request
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host="0.0.0.0",port=9089)
+
