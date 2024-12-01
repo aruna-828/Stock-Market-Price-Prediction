@@ -13,7 +13,7 @@ import plotly
 from flask import send_from_directory
 import redis
 
-conn_string = "rediss://red-ct29n4q3esus73d65do0:2zzInES6d6XAKaBjazXsBP8QI058frQg@oregon-redis.render.com"
+conn_string = "rediss://red-ct661hjqf0us738c7d40:rQbpXxjk8Qy9cIparUVrmO4bquQdPP97@oregon-redis.render.com:6379"
 
 redis_conn = redis.StrictRedis.from_url(conn_string, decode_responses=True)
 
