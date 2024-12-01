@@ -1,0 +1,13 @@
+yfinance==0.2.43
+numpy==2.0.2
+pandas==2.2.3
+scikit-learn==1.5.2
+tensorflow==2.18.0
+matplotlib==3.9.2
+requests==2.32.3
+keras==3.6.0 
+xgboost==2.1.2
+textblob==0.18.0.post0
+flask==3.0.3
+plotly==5.24.1 
+

@@ -11,6 +11,11 @@ import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import plotly
 from flask import send_from_directory
+import redis
+
+conn_string = "rediss://red-ct29n4q3esus73d65do0:2zzInES6d6XAKaBjazXsBP8QI058frQg@oregon-redis.render.com"
+
+redis_conn = redis.StrictRedis.from_url(conn_string, decode_responses=True)
 
 app = Flask(__name__, static_folder='static')
 
