@@ -128,7 +128,6 @@ def train_model(train_data):
     model.fit(X_train, y_train)
     return model, features
 
-
 # Predict future prices
 def predict_future_prices(model, test_data, features):
     predictions = []
@@ -172,7 +171,6 @@ def predict_future_prices(model, test_data, features):
             predictions.append(np.nan)
 
     return predictions
-
 
 # Prepare interactive plot using Plotly
 def create_plot(stock_data, predictions, ticker):
